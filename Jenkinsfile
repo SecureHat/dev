@@ -4,20 +4,20 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building.. pipeline'
+                echo 'you are great'
                
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'whoami'
+                sh 'testing'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'date'
+                sh 'my god'
             }
         }
     }
